@@ -21,12 +21,23 @@ body:
   - type: dropdown
     id: platform
     attributes:
-      label: What platforms are you seeing the problem on?
+      label: What platform are you seeing the problem on?
       options:
         - EBDL
         - ADAS Record 2.0
         - HIL Replay
         - Other
+    validations:
+      required: true
+  - type: dropdown
+    id: priority
+    attributes:
+      label: Which priority has this issue ?
+      options:
+        - Highest
+        - High
+        - Medium
+        - Low
     validations:
       required: true
   - type: dropdown
