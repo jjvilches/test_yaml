@@ -45,11 +45,6 @@ body:
     id: Due Date
     attributes:
       label: When is the resolution due ?
-      options:
-        - Firefox
-        - Chrome
-        - Safari
-        - Microsoft Edge
   - type: textarea
     id: logs
     attributes:
