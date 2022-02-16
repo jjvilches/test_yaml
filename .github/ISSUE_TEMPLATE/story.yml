@@ -74,18 +74,18 @@ body:
       .
       .
       "
-    -type: textarea
+  - type: textarea
     id: version
     attributes:
       label: Integration version
       description: Write down on which release/source code pull was the user story implemented
       placeholder: Release 1.4 // #1236fdw45
-  -type: textarea
+  - type: textarea
     id: test
     attributes:
       label: test
-      description: Write down which requirements have not been met.
+      description: "Write down which requirements have not been met.
       placeholder: Non functional requirement 1 was not fullfilled as the system was 3 seconds slower.
       Test ID xxxxxx
-      Test Description xxxxxx
+      Test Description xxxxxx"
 
