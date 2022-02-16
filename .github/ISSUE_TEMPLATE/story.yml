@@ -83,8 +83,15 @@ body:
   - type: textarea
     id: test
     attributes:
-      label: test
-      description: Write down which requirements have not been met.
+      label: Test Acceptance
+      description: Write down which requirements have not been met. Attach test log.
       placeholder: "Non functional requirement 1 was not fullfilled as the system was 3 seconds slower. \n
       Test ID xxxxxx \n
       Test Description xxxxxx"
+  - type: textarea
+    id: Release-accepted
+    attributes:
+      label: User Story acceptance
+      description: Write down if you are not satisfied by the user story implementaton or if you want the user story to be reworked. A subsequent story will be created if the requirements are modified.
+      placeholder: The user interface is not user friendly enough. My colleagues coudldn't use the feature. We need to rework it.
+
