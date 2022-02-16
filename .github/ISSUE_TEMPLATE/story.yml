@@ -12,7 +12,7 @@ body:
   - type: textarea
     id: what-needs
     attributes:
-      label: What is needed?
+      label: What is your need?
       description: Describe us your needs from a user point of view
       placeholder: As a <user>, I want to be able to <functionality> so that <user objective>
       value: "Example: As a developer, I want to be able to measure the CPU runtime so that I can monitor if enough ressources are allocated to the process."
@@ -67,9 +67,9 @@ body:
     attributes:
       label: Definition//Acceptance Criteria
       description: Requirements//Acceptance criterias have been gathered and are listed here
-      placeholder: "- [] Functional Requirement 1
-      - [] Functional Requirement 2
-      -[] Non Functional Requirement 1
+      placeholder: "- [] Functional Requirement 1 \n
+      - [] Functional Requirement 2 \n
+      -[] Non Functional Requirement 1 \n
       .
       .
       .
@@ -79,13 +79,12 @@ body:
     attributes:
       label: Integration version
       description: Write down on which release/source code pull was the user story implemented
-      placeholder: Release 1.4 // #1236fdw45
+      placeholder: "Release 1.4 // #1236fdw45"
   - type: textarea
     id: test
     attributes:
       label: test
-      description: "Write down which requirements have not been met.
-      placeholder: Non functional requirement 1 was not fullfilled as the system was 3 seconds slower.
-      Test ID xxxxxx
+      description: Write down which requirements have not been met.
+      placeholder: "Non functional requirement 1 was not fullfilled as the system was 3 seconds slower. \n
+      Test ID xxxxxx \n
       Test Description xxxxxx"
-
